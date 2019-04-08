@@ -6,6 +6,9 @@ The changelog for **SwifterSwift**. Also see the [releases](https://github.com/S
 
 ### Added
 
+- **Bundle**:
+  - Added `version`, `displayVersion`, `name`, and `displayName`.
+
 ### Changed
 
 ### Deprecated
@@ -13,6 +16,9 @@ The changelog for **SwifterSwift**. Also see the [releases](https://github.com/S
 ### Removed
 
 ### Fixed
+
+- **UIApplication**:
+  - Resolved an issue where `displayName` and `version` could be nil if localized.
 
 ### Security
 

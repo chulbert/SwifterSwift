@@ -445,6 +445,10 @@
 		CAC5EBD02125273100AB27EC /* TestImage.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC5EBBF2125270A00AB27EC /* TestImage.png */; };
 		CAC5EBD12125273100AB27EC /* TestImage.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC5EBBF2125270A00AB27EC /* TestImage.png */; };
 		CF30948A216AAC7A005609BC /* UIActivityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF309489216AAC7A005609BC /* UIActivityExtensions.swift */; };
+		F36648D2225BBC0C00F81623 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C08DFF225B836A00144E7A /* BundleExtensions.swift */; };
+		F36648D3225BBC0D00F81623 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C08DFF225B836A00144E7A /* BundleExtensions.swift */; };
+		F36648D4225BBC0E00F81623 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C08DFF225B836A00144E7A /* BundleExtensions.swift */; };
+		F3C08E00225B836A00144E7A /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C08DFF225B836A00144E7A /* BundleExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -637,6 +641,7 @@
 		CAC5EBC42125270A00AB27EC /* UITableViewHeaderFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITableViewHeaderFooterView.xib; sourceTree = "<group>"; };
 		CAC5EBC52125270A00AB27EC /* big_buck_bunny_720p_1mb.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = big_buck_bunny_720p_1mb.mp4; sourceTree = "<group>"; };
 		CF309489216AAC7A005609BC /* UIActivityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityExtensions.swift; sourceTree = "<group>"; };
+		F3C08DFF225B836A00144E7A /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -830,6 +835,7 @@
 				07B7F1781F5EB41600E6F910 /* URLExtensions.swift */,
 				077BA0891F6BE81F00D9C4AC /* URLRequestExtensions.swift */,
 				077BA08E1F6BE83600D9C4AC /* UserDefaultsExtensions.swift */,
+				F3C08DFF225B836A00144E7A /* BundleExtensions.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -1531,6 +1537,7 @@
 				7832C2AF209BB19300224EED /* ComparableExtensions.swift in Sources */,
 				664CB9762171899800FC87B4 /* BinaryFloatingPointExtensions.swift in Sources */,
 				074C8D81224F86450050F040 /* MKMapViewExtensions.swift in Sources */,
+				F3C08E00225B836A00144E7A /* BundleExtensions.swift in Sources */,
 				07B7F2321F5EB45100E6F910 /* CLLocationExtensions.swift in Sources */,
 				07B7F20E1F5EB43C00E6F910 /* CollectionExtensions.swift in Sources */,
 				07B7F2151F5EB43C00E6F910 /* IntExtensions.swift in Sources */,
@@ -1639,6 +1646,7 @@
 				07B7F2081F5EB43C00E6F910 /* StringExtensions.swift in Sources */,
 				07B7F2391F5EB45200E6F910 /* NSAttributedStringExtensions.swift in Sources */,
 				07B7F1AD1F5EB42000E6F910 /* UIImageExtensions.swift in Sources */,
+				F36648D2225BBC0C00F81623 /* BundleExtensions.swift in Sources */,
 				077BA08B1F6BE81F00D9C4AC /* URLRequestExtensions.swift in Sources */,
 				07A1C448224FFE16003272E4 /* UIApplicationExtensions.swift in Sources */,
 				B29527AE20F99F9900E1F75D /* RandomAccessCollectionExtensions.swift in Sources */,
@@ -1714,6 +1722,7 @@
 				07B7F1F31F5EB43B00E6F910 /* OptionalExtensions.swift in Sources */,
 				074EAF1D1F7BA68B00C74636 /* UIFontExtensions.swift in Sources */,
 				18C8E5E02074C60C00F8AF51 /* SequenceExtensions.swift in Sources */,
+				F36648D3225BBC0D00F81623 /* BundleExtensions.swift in Sources */,
 				07B7F1BE1F5EB42200E6F910 /* UIAlertControllerExtensions.swift in Sources */,
 				07B7F2281F5EB45100E6F910 /* CGColorExtensions.swift in Sources */,
 				70269A2E1FB478D100C6C2D0 /* CalendarExtensions.swift in Sources */,
@@ -1736,6 +1745,7 @@
 				B2EEA14A211A7AC900EF7F8E /* RangeReplaceableCollectionExtensions.swift in Sources */,
 				074C8D83224F86450050F040 /* MKMapViewExtensions.swift in Sources */,
 				07B7F1E01F5EB43B00E6F910 /* LocaleExtensions.swift in Sources */,
+				F36648D4225BBC0E00F81623 /* BundleExtensions.swift in Sources */,
 				07B7F1DA1F5EB43B00E6F910 /* DateExtensions.swift in Sources */,
 				07B7F1D81F5EB43B00E6F910 /* CollectionExtensions.swift in Sources */,
 				07B7F1DD1F5EB43B00E6F910 /* FloatExtensions.swift in Sources */,
